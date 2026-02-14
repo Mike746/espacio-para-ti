@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #1a1d24;
+  color: #f4f4f4;
+  overflow-x: hidden;
+}
+
+/* Gradiente suave flotante */
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 30%, rgba(255,182,193,0.15), transparent 40%),
+              radial-gradient(circle at 80% 70%, rgba(64,224,208,0.15), transparent 40%),
+              radial-gradient(circle at 50% 50%, rgba(186,85,211,0.15), transparent 40%);
+  z-index: -1;
+}
+
+/* Margaritas sutiles */
+body::after {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url("https://www.transparenttextures.com/patterns/daisy.png");
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.container {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #aab2bf;
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid #888;
+  background: transparent;
+  color: white;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: 1px solid #888;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+.hidden {
+  /*opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease;*/
+  display: none;
+}
+
+#carta {
+  margin-top: 40px;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+.carta-contenido {
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+}
+
+.carta-contenido p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.carta-contenido h2 {
+  margin-bottom: 25px;
+}
+
+.carta-contenido {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.coming-soon {
+  margin-top: 60px;
+  color: #aab2bf;
+}
+
+.misterio {
+  font-style: italic;
+  opacity: 0.7;
+}
