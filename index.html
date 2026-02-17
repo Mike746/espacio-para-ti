@@ -11,16 +11,33 @@
 
   <div class="container">
 
-    <h1 class="title">Un espacio para ti</h1>
-    <p class="subtitle">La clave es el nombre de nuestra cancion sin espacios y en minusculas</p>
+    <div id="main-content">
+      <h1 class="title">Un espacio para ti</h1>
+      <p class="subtitle">La clave es el nombre de nuestra cancion sin espacios y en minusculas</p>
+      <!-- <div id="login-section" class="fade-in">
+        <input type="password" id="password" placeholder="Descubre la clave">
+        <button onclick="verificarClave()">Abrir</button>
+      </div> -->
+      
+      <div class="accesos">
+        <button onclick="mostrarLogin('carta')">
+          Carta del 14 de febrero
+        </button>
+        
+        <button onclick="mostrarLogin('emocional')">
+          Para animarte
+        </button>
+      </div>
+    </div>
 
-    <div id="login-section" class="fade-in">
-      <input type="password" id="password" placeholder="Descubre la clave">
-      <button onclick="verificarClave()">Abrir</button>
+    <div id="login-general" style="display:none;">
+      <h2>Acceso privado</h2>
+      <input type="password" id="password-general" placeholder="introduce la clave">
+      <button onclick="verificarAcceso()">Entrar</button>
     </div>
 
     <div id="carta" class="hidden">
-      <div class="carta-contenido">
+      <!--<div class="carta-contenido">-->
         <h2>Para Gabi Mi Amor.</h2>
         <p>
           Mi flaquita, preciosa, hermosa, Gabi mi amor. Hoy es 14 de febrero y quería hacerte este detalle, 
@@ -28,7 +45,7 @@
           <!-- AQUÍ VA TU CARTA -->
         </p>
         <p>
-          Fuimos amigos 2 años y novios 10, hasta el momento los mejores 10 años de mi vida sinceramente, 
+          Fuimos amigos 2 años y novios 12, hasta el momento los mejores 12 años de mi vida sinceramente, 
           cuando te conocí nunca pensé que tu serias la mujer con la que yo iba querer compartir mi vida, 
           pero mira aquí estoy escribiéndole una carta a la mujer que es el amor de mi vida y que es todo para mi ☺️🥰
         </p>
@@ -44,7 +61,7 @@
              fue solo superficial de que me parecieras hermosa, fue mas que eso 😍. 
         </p>
         <p>
-          No quiero extender mucho esta carta mi amor, no quisiera agobiarte con tanto texto. Respecto al tiempo que pasamos separados, sobre eso hay 
+          Respecto al tiempo que pasamos separados, sobre eso hay 
           mucho que quiero decirte (nada malo, no te preocupes), pero de esto quiero hablar contigo en persona y cuando ya me permitas ser tu novio 
           de nuevo. Ahorita de eso solo quiero decirte que hoy mas que nunca estoy seguro de que quiero que seas tu la mujer con la que quiero 
           pasar lo que me quede de vida, y vamos a construir algo aun más fuerte de lo que teníamos ❤️
@@ -60,13 +77,41 @@
           PD: Esta página web es un regalo doble, esta cartita es por el 14 de febrero, 
           pero, estoy trabajando en algo que va ser como de largo plazo y espero te guste.
         </p>
-      </div>
+      <!--</div>-->
     </div>
 
+<!--
     <div class="coming-soon">
       <p>Hay algo más que estoy construyendo para ti.</p>
       <p class="misterio">Aún no está listo… pero pronto lo estará.</p>
     </div>
+
+    -->
+
+    <!-- Para la nueva seccion ........................ -->
+
+    <div id="seccion-emocional" style="display:none;">
+      <h2>¿Cómo te sientes hoy?</h2>
+
+      
+
+      <div class="botones-emociones">
+        <button onclick="mostrarFrase('cansada')">Cansada</button>
+        <button onclick="mostrarFrase('abrumada')">Abrumada</button>
+        <button onclick="mostrarFrase('triste')">Triste</button>
+        <button onclick="mostrarFrase('frustrada')">Frustrada</button>
+        <!--<button onclick="mostrarFrase('necesito_calma')">Necesito calma</button> -->
+        <button onclick="mostrarFrase('solo_leer')">Solo quiero leer algo tuyo</button>
+      </div>
+      <div id="frase-resultado"></div>
+    </div>
+     <!--Termino de la nueva seccion ........................ -->
+
+     <!--</div> cierre de main-content -->
+
+
+    
+   
 
   </div>
 
