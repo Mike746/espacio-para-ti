@@ -1,0 +1,59 @@
+{
+    "cansada":{
+        "descripcion": "Para los dias que todo pesa",
+        "frases": [
+            "Mi vida, no cargues con todo tu sola, apoyate de las personas que te quieren, en especial de la persona que más te quiere (yo 😆❤️)",
+            "Mi amorcito, yo se cuanto te esfuerzas en todo y dejame decirte que lo estas haciendo bien, no estas fallando a nadie. Me siento orgulloso de ti 🥰",
+            "Preciosa, tomate un momento, despeja tu mente, descansa tu cuerpo, respira. NO ESTAS SOLA YO ESTOY CONTIGO 💕"
+        ]
+    },
+
+    "abrumada":{
+        "descripcion": "Cuando todo parece demasiado",
+        "frases":[
+            "Mi amorcito, detente, vamos a tomar 5 minutitos, quiero que te alejes un poco de lo que estes haciendo, inhala 4 seg, manten 4 seg y exhala en 4 seg, con calma ❤️",
+            "Chaparrita, espera, destensa tu cuerpo, vamos por partes, vamos a separar todo por pasos y sin prisas 😘",
+            "Lindura, levantate unos momentos, camina un poco, estirate, no te presiones, relaja tu cuerpo un poco, si tienes oportunidad y crees que te pueda ayudar llamame, estoy para ti 🥰"
+        ]
+    },
+
+    "triste":{
+        "descripcion": "Para cuando te sientas sensible",
+        "frases":[
+            "Mi amorcito entiendo que en estos momentos puedes estar pasando por cosas complicadas, y que te sientas de muchas formas, pero, nunca olvides que yo siempre voy a estar de tu lado ❤️",
+            "Lindura, se lo fuerte que eres, pero, no tienes que ocultar como te sientes, en especial conmigo 💕 Si en algún momento quieres llorar con compañia puedes decirme y yo voy a estar contigo 💕",
+            "Recuerda que tu llanto no es señal de debilidad, siempre va ser una fortaleza, el que puedas expresarte de esa manera tan genuina es de las cosas que mas admiro de ti 😘",
+            "No tienes que lidiar con lo que sientes tu sola, yo siempre voy a estar para ti cuando lo necesites 🥰"
+
+        ]
+    },
+
+    "frustrada":{
+        "descripcion": "Para cuando los planes no resultan",
+        "frases":[
+            "Preciosa, se que muchas veces reaccionas a diferentes situaciones, y gran parte de esas veces dudas de si hiciste lo correcto. Mi amor, tus reacciones son las correctas ☺️",          
+            "Flaquita linda, desahogarte siempre es bueno y ayuda a descargarte, así que si quieres hablar con alguien siempre voy a estar para ti 😊",
+            "Mi cielito, CONFIA EN TI COMO YO CONFIO EN TI, tu tienes las capacidades y destrezas para hacer todo lo que te propongas 💕",
+            "Gabi mi amor, todos cometemos errores, no te castigues y no seas tan dura contigo cuando cometas uno, solo aprende de ellos y sigue con la cabeza en alto. ESTOY ORGULLOSO DE LA MUJER QUE ERES!! 🥰"
+        ]
+    },
+
+    "necesito_calma": {
+        "descripcion": "Para cuando quieras resolver todo",
+        "frases":[
+            "frase 1",
+            "frase 2"
+        ]
+    },
+
+    "solo_leer": {
+        "descripcion": "Cuando me extrañes, pero estes ocupada",
+        "frases":[
+            "Mi cachetitos hermosa, te quiero muchisimo 🥰 siempre estoy pensando en ti 😘",
+            "Gabi mi amor, admiro mucho cuanto te esfuerzas con todo lo que haces, eres la mujer con la que quiero compartirlo todo 🥰",
+            "Gabi Amore Mio, te extraño mucho 😫, pero me aguanto como lo machos 😂 espero verte pronto 🥰",
+            "💕😊 Te quiero muchisimo, siempre uno mas que tu 😊💕"
+        ]
+    }
+
+}
